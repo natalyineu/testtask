@@ -5,13 +5,18 @@ Results go to the Google Sheet `1JrxnkkqaG-l004sTcPT6fLyJJ9ndpc18LodpIjt3NXo`, s
 
 Network access needed: `t.me`, `hh.ru` (plus `remocate.app`, `djinni.co` if used).
 
-## Telegram
+## Telegram (channel list: channels.txt)
 ```
 python3 tg_scrape.py --since 2026-09-16 --out tg.json \
   evacuatejobs remocate igaming_work call_rabota jobs_support Remoteit remotejobss web3hiring cryptojobslist
 ```
 Most useful: `igaming_work`, `call_rabota`, `evacuatejobs`/`remocate`. `jobsearchIT` returned nothing,
 `remotejobss` posts have no links.
+
+## djinni
+```
+python3 djinni_scrape.py --since 2026-09-16 --out djinni.json
+```
 
 ## hh.ru
 ```
