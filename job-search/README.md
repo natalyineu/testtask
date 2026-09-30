@@ -29,3 +29,11 @@ python3 hh_scrape.py --details hh_nonru.json --out hh_det.json
 - Remote only, available from Serbia; skip RF labor contracts, US/Canada-only, IT/engineering roles.
 - Match: ★★★★ CS/CX + USD/EUR + global remote; ★★★ CS/CX remote; ★★ adjacent (account mgmt, tech support, ops, KYC/AML).
 - Check Apply Link against the sheet before adding (no duplicates).
+
+## Telegram groups/chats (need your account)
+```
+pip install telethon
+export TG_API_ID=... TG_API_HASH=...   # from my.telegram.org
+python3 tg_groups.py --since 2026-09-16 --out groups.json Pol_relocation cyprusithr
+```
+Run it on your own computer; never commit the .session file or API keys.
