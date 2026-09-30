@@ -1,6 +1,6 @@
 # Job search: Customer Support / CS / fintech ops (remote from Serbia)
 
-Results go to the Google Sheet `1JrxnkkqaG-l004sTcPT6fLyJJ9ndpc18LodpIjt3NXo`, sheet `Untitled`
+Results go to a Google Sheet (ID kept outside the repo)
 (columns: Date | Title | Company | Location | Salary | Match | Apply Link | Source).
 
 Network access needed: `t.me`, `hh.ru` (plus `remocate.app`, `djinni.co` if used).
